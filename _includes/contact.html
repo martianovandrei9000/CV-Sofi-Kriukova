@@ -3,6 +3,7 @@
 <section class="contact">
     <div class="title">Contact</div>
     <div class="contact-grid">
+    <div class="left-column">
 
     {% if contact.phone %}
     <div class="contact-item">
@@ -39,6 +40,9 @@
         </a>
     </div>
     {% endif %}
+    
+    </div>
+    <div class="right-column">
 
     {% if contact.download %}
     <div class="contact-item">
@@ -85,6 +89,7 @@
     </div>
     {% endif %}
 
+    </div>
     </div>
 </section>
 {% endif %}
