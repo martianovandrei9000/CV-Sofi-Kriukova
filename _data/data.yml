@@ -16,9 +16,11 @@ contact:
 
 hardskills:
   skill:
-    - C# and Unity3D (VR, Android, iOS)
-    - Gitlab, Linux, infrastructure, CI/CD, Ansible, Grafana, Zabbix, Kubernetes, VMware
-    - Python, JavaScript, MAUI, SQL, HTML, CSS, Blazor, React, Java, PHP, LLM, Blockchain
+    - Linux, CI/CD, Gitlab, Ansible, VMware, Proxmox, Hyper-V
+    - C# and Unity3D (VR, Android, iOS), ASP.NET, SQL
+    - Docker,infrastructure, Kubernetes,  Prometheus,  Grafana, Zabbix
+    - LLM, RAG, Python, blockchain, GoLang, Java, PHP
+    - JavaScript, Typescript, HTML, CSS, Blazor, React, MAUI(Xamarin)
 
 softskills:
   skill:
@@ -56,7 +58,7 @@ experience:
     time: 2023-2025
     company: NDA-organization
     link:
-    details: AI, R&D, Blockchain
+    details: R&D, AI, Blockchain and all sorts of Rock`n`Roll.
     details-list: ""
 
   - role: C# Developer, DevOps, PM
