@@ -91,10 +91,10 @@
 
     {% if contact.print %}
     <div class="contact-item">
-        <i data-feather="print"></i>
-        <a href="window.print(); return false;">
-            {{contact.print}}
-        </a>
+        <i data-feather="printer"></i>
+        <button onclick="window.print()"> {{contact.print}}</button>
+           
+
     </div>
     {% endif %}
 
