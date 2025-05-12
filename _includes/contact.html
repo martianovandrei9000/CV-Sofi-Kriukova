@@ -14,20 +14,20 @@
     </div>
     {% endif %}
 
-    {% if contact.linkedin %}
-    <div class="contact-item">
-        <i data-feather="linkedin"></i>
-        <a href="https://linkedin.com/in/{{contact.linkedin}}">
-            {{contact.linkedin}}
-        </a>
-    </div>
-    {% endif %}
-
     {% if contact.telegram %}
     <div class="contact-item">
         <i data-feather="send"></i>
         <a href="https://t.me/{{contact.telegram}}">
             {{contact.telegram}}
+        </a>
+    </div>
+    {% endif %}
+
+    {% if contact.linkedin %}
+    <div class="contact-item">
+        <i data-feather="linkedin"></i>
+        <a href="https://linkedin.com/in/{{contact.linkedin}}">
+            {{contact.linkedin}}
         </a>
     </div>
     {% endif %}
