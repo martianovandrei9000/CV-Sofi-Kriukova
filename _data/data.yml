@@ -11,6 +11,7 @@ contact:
   download: "https://drive.google.com/drive/folders/10io0SoCVu6GVkllFQoewCRyFR5bkvbfY"
   online: https://cv.anmart.site
   fork: https://github.com/wake0up0ne0/CV
+  calendar: https://calendly.com/martianov-andrei9000
   print: Print this page
 
 hardskills:
@@ -76,7 +77,7 @@ experience:
 
   - role: C# Developer, Unity3D Developer, Gamedesigner
     time: 2019-2021
-    company: 3dru(3d-printed hardware, VR and mobile prototypes)
+    company: 3dru (3d-printed hardware, VR and mobile prototypes)
     details: ""
     details-list:
       - "Built-in Unity components: Unity Analytics, Unity Ads, Unity IAP (in-app purchases), Profiler, Scriptable objects"

@@ -96,6 +96,15 @@
     </div>
     {% endif %}
 
+    {% if contact.calendar %}
+    <div class="contact-item">
+        <i data-feather="calendar"></i>
+        <a href="{{contact.calendar}}">
+            Calendar: {{contact.calendar}}
+        </a>
+    </div>
+    {% endif %}
+
     </div>
     </div>
 </section>
