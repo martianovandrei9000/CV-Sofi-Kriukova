@@ -89,7 +89,14 @@
     </div>
     {% endif %}
 
-    <a href="#" onclick="window.print(); return false;">🖨️ Print This Page</a>
+    {% if contact.print %}
+    <div class="contact-item">
+        <i data-feather="print"></i>
+        <a href="window.print(); return false;">
+            {{contact.print}}
+        </a>
+    </div>
+    {% endif %}
 
     </div>
     </div>
