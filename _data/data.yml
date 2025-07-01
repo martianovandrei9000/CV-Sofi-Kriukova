@@ -21,6 +21,7 @@ hardskills:
     - Docker, infrastructure, Kubernetes,  Prometheus,  Grafana, Zabbix
     - LLM, RAG, Python, blockchain, GoLang, Java, PHP
     - JavaScript, Typescript, HTML, CSS, Blazor, React, MAUI (Xamarin)
+    - N8N, Cluade + MCP, Ollama
 
 softskills:
   skill:
