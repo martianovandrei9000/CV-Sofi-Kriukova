@@ -19,9 +19,9 @@ hardskills:
     - Linux, CI/CD, Gitlab, Ansible, VMware, Proxmox, Hyper-V
     - C# and Unity3D (VR, Android, iOS), .NET, SQL, ASP.NET
     - Docker, infrastructure, Kubernetes,  Prometheus,  Grafana, Zabbix
-    - LLM, RAG, Python, blockchain, GoLang, Java, PHP
+    - Python, blockchain, GoLang, Java, PHP
     - JavaScript, Typescript, HTML, CSS, Blazor, React, MAUI (Xamarin)
-    - N8N, Cluade + MCP, Ollama
+    - LLM, RAG, N8N, Claude + MCP, Ollama, VsCode Continue,  Cline
 
 softskills:
   skill:
