@@ -12,7 +12,8 @@ contact:
   online: https://cv.an-mart.com/
   fork: https://github.com/wake0up0ne0/CV
   calendar: https://calendly.com/martianov-andrei
-  print: Print this page
+  print: Print this page 
+  timezone: UTC-3
 
 hardskills:
   skill:
@@ -21,7 +22,8 @@ hardskills:
     - Docker, infrastructure, Kubernetes,  Prometheus,  Grafana, Zabbix
     - Python, blockchain, GoLang, Java, PHP
     - JavaScript, Typescript, HTML, CSS, Blazor, React, MAUI (Xamarin)
-    - LLM, RAG, N8N, Claude + MCP, Ollama, VsCode Continue,  Cline
+    - LLM, RAG, N8N, Agents
+    - Claude Code, MCP, Gemini CLI, Ollama, OpenCode, VsCode Continue,  Cline
 
 softskills:
   skill:

@@ -105,6 +105,15 @@
     </div>
     {% endif %}
 
+    {% if contact.timezone %}
+    <div class="contact-item">
+        <i data-feather="clock"></i>
+        <a href="{{contact.timezone}}">
+            Calendar
+        </a>
+    </div>
+    {% endif %}
+
     </div>
     </div>
 </section>
