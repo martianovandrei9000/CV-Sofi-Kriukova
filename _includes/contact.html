@@ -50,6 +50,16 @@
     </div>
     {% endif %}
 
+    
+    {% if contact.calendar %}
+    <div class="contact-item">
+        <i data-feather="calendar"></i>
+        <a href="{{contact.calendar}}">
+            Calendar
+        </a>
+    </div>
+    {% endif %}
+
     {% if contact.download %}
     <div class="contact-item">
         <i data-feather="download"></i>
@@ -104,17 +114,6 @@
         <button class="contact-button" onclick="window.print()"> {{contact.print}}</button>
     </div>
     {% endif %}
-
-    {% if contact.calendar %}
-    <div class="contact-item">
-        <i data-feather="calendar"></i>
-        <a href="{{contact.calendar}}">
-            Calendar
-        </a>
-    </div>
-    {% endif %}
-
-
 
     </div>
     </div>
