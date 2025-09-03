@@ -41,6 +41,15 @@
     </div>
     {% endif %}
 
+    {% if contact.timezone %}
+    <div class="contact-item">
+        <i data-feather="clock"></i>
+        <a href="https://www.timeanddate.com/time/difference/timezone/"{{contact.timezone}}>
+           {{contact.timezone}}
+        </a>
+    </div>
+    {% endif %}
+
     {% if contact.download %}
     <div class="contact-item">
         <i data-feather="download"></i>
@@ -105,14 +114,7 @@
     </div>
     {% endif %}
 
-    {% if contact.timezone %}
-    <div class="contact-item">
-        <i data-feather="clock"></i>
-        <a href="https://www.timeanddate.com/time/difference/timezone/"{{contact.timezone}}>
-           {{contact.timezone}}
-        </a>
-    </div>
-    {% endif %}
+
 
     </div>
     </div>
