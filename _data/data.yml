@@ -1,153 +1,77 @@
-name: Andrei Martianov
-name-in-cyrillic : Андрей Мартьянов
+name:
+name-in-cyrillic :
 
 stopwords:
   personal-stopwords: "руководитель", "manager", "менеджер", "lead", "teamlead", "тимлид", "тестировщик", "тестированию", "тестер", "tester", "архитектор", "architect", "артист", "artist", "аналитик", "analyst", "PHP", "Angular", "flutter", "kotlin", "Python", "javascript", "Java", "rust","Rust", "oracle", "c++","С++""Laravel", "lua", "stm", "qa", "elixir", "1c", "Node.js", "NodeJS","nestjs","Next.js", "Firebase", "Кликхаус", "clickhouse", "aso", "ruby", "postgresql", "mssql", "HTMX", "Helix", "Cyber", "SQL", "Delphi", "Vue", "ColdFusion","Odoo", "Frontend", "Power Platform", "Unreal", "Roblox", "elma", "bpmsoft", "lua", "С-разработчик", "go разработчик", "golang", "frontend", "фронтенд", "фронтэнд"
   universal-stopwords: "наставник", "ментор", "репетитор",  "школа", "школу", "преподаватель", "автор", "стажёр", "стажер", "intern", "интерн",  "продажи", "продажам", "продвижению",  "торговых"
 
 preferences:
-  interested-to-work-remotely : yes   
-  interested-to-work-in-office : no
-  interested-to-work-in-hybrid-office-and-remote : no
-  interested-to-work-as-private-contractor: yes
-  interested-to-work-as-individual-enterpreneur: yes
-  interested-to-work-fulltime : yes
-  interested-to-work-parttime : yes
-  agree-to-solve-test-task : disagree
-  willing-to-relocate : no
-  can-relocate : possibly
-  agree-to-work-from-russia-territory: no
-  agree-to-work-outside-of-russia-territory: yes
-  desired-salary: 4000 USD
-  available-for-business-trips: yes  
-  applicant-timezone: utc-3
-  applicant-location: Argentina, Buenos-Aires
+  interested-to-work-remotely :
+  interested-to-work-in-office : 
+  interested-to-work-in-hybrid-office-and-remote :
+  interested-to-work-as-private-contractor: 
+  interested-to-work-as-individual-enterpreneur: 
+  interested-to-work-fulltime : 
+  interested-to-work-parttime :
+  agree-to-solve-test-task :
+  willing-to-relocate : 
+  can-relocate : 
+  agree-to-work-from-russia-territory: 
+  agree-to-work-outside-of-russia-territory: 
+  desired-salary: 
+  available-for-business-trips: 
+  applicant-timezone: 
+  applicant-location:
 
 contact:
-  github:
-  telegram: andrei_martianov
-  linkedin: andrei-martianov
-  email: martianov.andrei9000@gmail.com
-  phone:
-  gitlab:
-  twitter:
-  download: "https://drive.google.com/drive/folders/10io0SoCVu6GVkllFQoewCRyFR5bkvbfY"
-  online: https://cv.an-mart.com/
-  calendar: https://calendly.com/martianov-andrei
+  github: FILLED_NEXT_STEP
+  telegram: FILLED_NEXT_STEP
+  linkedin: FILLED_NEXT_STEP
+  email: FILLED_NEXT_STEP
+  phone: FILLED_NEXT_STEP
+  download: FILLED_NEXT_STEP
+  online: FILLED_NEXT_STEP
+  calendar: FILLED_NEXT_STEP
   print: Print this page 
 
 hardskills:
   skill:
-    - Linux, CI/CD, Gitlab, Ansible, VMware, Proxmox, Hyper-V
-    - C# and Unity3D (VR, Android, iOS), .NET, SQL, ASP.NET
-    - Docker, infrastructure, Kubernetes,  Prometheus,  Grafana, Zabbix
-    - Python, blockchain, GoLang, Java, PHP
-    - JavaScript, Typescript, HTML, CSS, Blazor, React, MAUI (Xamarin)
-    - LLM, RAG, N8N, Agents
-    - Claude Code, MCP, Gemini CLI, Ollama, OpenCode, VsCode Continue,  Cline
+    - 
+    - 
 
 softskills:
   skill:
-    - Keep calm & carry on
-    - Always learn and share knowledge. Can't ignore a good question
-    - Cat-like curiosity. New framework? Let's go!
-    - Teamplayer or self-directed solo, depending on the situation
-    - Translator between tech and business people. Building bridges between worlds
-    - Asynchrohous communication advocate
-    - Believe it or not, I like refactoring
+    - 
+    - 
 
 languages:
-  - idiom: English - C2
-  - idiom: Spanish - B2
-  - idiom: Russian - Native
+  - idiom: LANGUAGE - LEVEL
+  - idiom: LANGUAGE - LEVEL
 
 education:
-  - degree: Certificate in RobotStudio
-    time: 2020
-    university: ABB industrial robots IDE
+  - degree: 
+    time: 
+    university: 
 
-  - degree: Bachelor's degree in "Informatics in metrology and quality management"
-    time: 2003-2008
-    university: Moscow State Technological University of Heavy Machines and Tools "Stankin"
+  - degree:
+    time: 
+    university:
 
 bio: |
-  Looking for Software Engineer job. I have 20 years in IT and management:
-    3y - DevOps
-    5y - C# programming
-    4y - project management
-    8y - system administration
+  SOME_PERSONAL_PREFERENCES_AND_INFORMATION
 
 experience:
-  - role: DevOps
-    time: 2023-2025
-    company: NDA-organization
+  - role: 
+    time: 
+    company: 
     link:
-    details: R&D, AI, Blockchain and all sorts of Rock`n`Roll.
+    details: 
     details-list: ""
 
-  - role: C# Developer, DevOps, PM
-    time: 2021-2023
-    company: hoopsly (hypercasual games publisher)
+  - role: 
+    time: 
+    company: 
     details: ""
     details-list:
-      - "Created and operated mission critical everyday tool for a team of 50 producers and analysts."
-      - "Based on an analytics team specification I have come up with an idea on how we should build and automate the daily ETL (Extract-Transform-Load process)."
-      - "Developed in solo from scratch C# console app for importing analytics data from multiple sources: REST APIs, AWS S3, Adjust, Applovin, Appsflyer,Facebook Ads to Big Query, S3 buckets at GCP (Google Cloud Platform)."
-      - "Added Google SpreadSheet integration as a control tool for running on-demand custom data imports and making the app accessible for non-technical users."
-      - "Created app logging and server usage monitoring. "
-      - "Configured deploy and CI/CD: Digital Ocean Droplet running a dockerized app."
-      - "Visualised performance metrics in Data Studio, wrote documentation, created logging system with Serilog, Seq and OpenTelemetry"
-      - "Experience with web: Blazor, ASP.NET, Javascript (React, Strapi, Meteor), GraphQL, HTML, CSS, MSSQL, MySQL, MongoDB, Postman."
-
-  - role: C# Developer, Unity3D Developer, Gamedesigner
-    time: 2019-2021
-    company: 3dru (3d-printed hardware, VR and mobile prototypes)
-    details: ""
-    details-list:
-      - "Built-in Unity components: Unity Analytics, Unity Ads, Unity IAP (in-app purchases), Profiler, Scriptable objects"
-      - "Version control: Git CLI, Git LFS, GitKraken, Sourcetree"
-      - "Animation: Unity animator + DOTWeen, Animation Rigging, Timeline + Cinemashine"
-      - "Multiplayer matchmaking and lobby: Photon Unity Networking"
-      - "Editor: OpenUPM (alternative package manager), Odin Inspector, Custom editors"
-      - "Level design: Archimatix, ProBuilder, ProGrid"
-      - "AI: Behaviour Tree Designer, FSM (Finite State Machines)"
-      - "External tools: Azure Computer Vision,Google Play Services (highscore, cloud saves), Admob, Android Studio, ADB, X-code"
-      - "Hardware SDK: SteamVR, OculusVR (Quest, Rift), RaspberryPi, Microsoft Kinect 2."
-      - "UI and prototyping: TextMeshPro, Modern UI, Pencil, Figma, Axure RP"
-      - "Project Management: Jira, Confluence, Trello"
-      - "Remote work tools for team: Self-hosted dockerized Gitlab & Confluence, Zabbix, Netdata, Datadog, Portainer, Game Backend "
-      - "High score tables: dockerized NodeJs JSON API (Strapi Headless CMS +MariaDB)"
-      - "Backups of all of the above with Duplicati"
-
-  - role: Project manager
-    time: 2016-2018
-    company: (immersive theater, quest room)
-    link: msk2048.ru
-    details: Making stuff operate smoothly. Optimizing routines. Extinguishing fires.
-    details-list: ""
-
-  - role: Entrepreneur, PM, gamedesigner, HR, marketer, jack of all trades
-    time: 2014-2016
-    company: (quest game, escape room)
-    link: claustrophobia.com/moscow/kvest/filosofskij-kamen
-    details: |
-      Inventing stuff from scratch, BizDev, CusDev, talking to people, game balance, talents, construction, advertising, making sure bathroom is perfect.
-      Won "Quest of the year 2016" 
-      Tons of 10/10 from players. 
-      This project is an achievement I am really proud of. 
-      Check photos, link above.
-    details-list: ""
-
-  - role: System administrator, datacenter engineer
-    time: 2011-2014
-    company: (ISP, Datacenter)
-    link: netorn.ru
-    details: UNIX, Redmine, Zabbix, Cacti, rack grooming, incident response, installing new hardware
-    details-list: ""
-
-  - role: Tech support, system administrator
-    time: 2005-2011
-    company: (ISP)
-    link: cross-t.ru
-    details: FreeBSD, Cisco, routing, DNS, DHCP, NAT, ActiveDirectory, SMTP, VPN, VMware, VirtualBox
-    details-list: ""
+      - 
+      -
