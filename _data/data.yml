@@ -1,6 +1,26 @@
 name: Andrei Martianov
 name-in-cyrillic : Андрей Мартьянов
 
+preferences:
+  pesonal-stopwords: "руководитель", "manager", "менеджер", "lead", "teamlead", "тимлид", "тестировщик", "тестированию","тестер","tester", "архитектор", "architect", "артист", "artist", "аналитик", "analyst", "PHP", "Angular", "flutter", "kotlin", "Python", "javascript", "Java", "rust","Rust", "oracle", "c++","С++""Laravel", "lua", "stm", "qa", "elixir", "1c", "Node.js", "NodeJS","nestjs","Next.js", "Firebase", "Кликхаус", "clickhouse", "aso", "ruby", "postgresql", "mssql", "HTMX", "Helix", "Cyber", "SQL", "Delphi", "Vue", "ColdFusion","Odoo", "Frontend", "Power Platform", "Unreal", "Roblox", "elma", "bpmsoft", "lua", "С-разработчик", "go разработчик", "golang", "frontend", "фронтенд", "фронтэнд"
+  universal-stopwords: "наставник", "ментор", "репетитор",  "школа", "школу", "преподаватель", "автор", "стажёр", "стажер", "intern", "интерн",  "продажи", "продажам", "продвижению",  "торговых"
+  interested-to-work-remotely : yes   
+  interested-to-work-in-office : no
+  interested-to-work-in-hybrid-office-and-remote : no
+  interested-to-work-as-private-contractor: yes
+  interested-to-work-as-individual-enterpreneur: yes
+  interested-to-work-fulltime : yes
+  interested-to-work-parttime : yes
+  agree-to-solve-test-task : disagree
+  willing-to-relocate : no
+  can-relocate : possibly
+  agree-to-work-from-russia-territory: no
+  agree-to-work-outside-of-russia-territory: yes
+  desired-salary: 4000 USD
+  available-for-business-trips: yes  
+  applicant-timezone: utc-3
+  applicant-location: Argentina, Buenos-Aires
+
 contact:
   github:
   telegram: andrei_martianov
@@ -13,7 +33,6 @@ contact:
   online: https://cv.an-mart.com/
   calendar: https://calendly.com/martianov-andrei
   print: Print this page 
-  timezone: utc-3
 
 hardskills:
   skill:
