@@ -1,16 +1,19 @@
-name: OBLIGATORY
-name-in-cyrillic : OBLIGATORY
+name: AT_LEAST_ONE
+name-in-cyrillic : AT_LEAST_ONE
 
 stopwords:
   personal-stopwords: LIST | OPTIONAL
   universal-stopwords: ["наставник", "ментор", "репетитор",  "школа", "школу", "преподаватель", "автор", "стажёр", "стажер", "intern", "интерн",  "продажи", "продажам", "продвижению",  "торговых"]
 
 preferences:
+
   interested-to-work-remotely : AT_LEAST_ONE
   interested-to-work-in-office : AT_LEAST_ONE
-  interested-to-work-in-hybrid-office-and-remote : AT_LEAST_ONE
-  interested-to-work-as-private-contractor: AT_LEAST_ONE
-  interested-to-work-as-individual-enterpreneur: AT_LEAST_ONE
+  interested-to-work-in-hybrid-office-and-remote : AI_DERIVED
+  
+  interested-to-work-as-private-contractor: OPTIONAL | DEFAULT:unspecified
+  interested-to-work-as-individual-enterpreneur: OPTIONAL | DEFAULT:unspecified
+  
   interested-to-work-fulltime : OPTIONAL | DEFAULT_YES
   interested-to-work-parttime : OPTIONAL | DEFAULT_YES
   agree-to-solve-test-task : OPTIONAL | DEFAULT:no
@@ -51,7 +54,7 @@ education:
     university: 
 
 bio: |
-  DO_NOT_PROMPT
+  AI_DERIVED
 
 experience:
   - role: OPTIONAL | LIST_BLOCK | GROUP
