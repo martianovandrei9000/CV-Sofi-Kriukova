@@ -1,27 +1,27 @@
-name:
-name-in-cyrillic :
+name: OBLIGATORY
+name-in-cyrillic : OBLIGATORY
 
 stopwords:
-  personal-stopwords: ["руководитель", "manager", "менеджер", "lead", "teamlead", "тимлид", "тестировщик", "тестированию", "тестер", "tester", "архитектор", "architect", "артист", "artist", "аналитик", "analyst", "PHP", "Angular", "flutter", "kotlin", "Python", "javascript", "Java", "rust","Rust", "oracle", "c++","С++", "Laravel", "lua", "stm", "qa", "elixir", "1c", "Node.js", "NodeJS","nestjs","Next.js", "Firebase", "Кликхаус", "clickhouse", "aso", "ruby", "postgresql", "mssql", "HTMX", "Helix", "Cyber", "SQL", "Delphi", "Vue", "ColdFusion","Odoo", "Frontend", "Power Platform", "Unreal", "Roblox", "elma", "bpmsoft", "lua", "С-разработчик", "go разработчик", "golang", "frontend", "фронтенд", "фронтэнд"]
+  personal-stopwords: LIST | OPTIONAL
   universal-stopwords: ["наставник", "ментор", "репетитор",  "школа", "школу", "преподаватель", "автор", "стажёр", "стажер", "intern", "интерн",  "продажи", "продажам", "продвижению",  "торговых"]
 
 preferences:
-  interested-to-work-remotely :
-  interested-to-work-in-office : 
-  interested-to-work-in-hybrid-office-and-remote :
-  interested-to-work-as-private-contractor: 
-  interested-to-work-as-individual-enterpreneur: 
-  interested-to-work-fulltime : 
-  interested-to-work-parttime :
-  agree-to-solve-test-task :
-  willing-to-relocate : 
-  can-relocate : 
-  agree-to-work-from-russia-territory: 
-  agree-to-work-outside-of-russia-territory: 
-  desired-salary: 
-  available-for-business-trips: 
-  applicant-timezone: 
-  applicant-location:
+  interested-to-work-remotely : AT_LEAST_ONE
+  interested-to-work-in-office : AT_LEAST_ONE
+  interested-to-work-in-hybrid-office-and-remote : AT_LEAST_ONE
+  interested-to-work-as-private-contractor: AT_LEAST_ONE
+  interested-to-work-as-individual-enterpreneur: AT_LEAST_ONE
+  interested-to-work-fulltime : OPTIONAL | DEFAULT_YES
+  interested-to-work-parttime : OPTIONAL | DEFAULT_YES
+  agree-to-solve-test-task : OPTIONAL | DEFAULT:no
+  willing-to-relocate : OPTIONAL | DEFAULT:no
+  can-relocate : OPTIONAL | DEFAULT:no
+  agree-to-work-from-russia-territory: OPTIONAL | DEFAULT:no
+  agree-to-work-outside-of-russia-territory: OPTIONAL | DEFAULT:yes
+  desired-salary: OPTIONAL | DEFAULT:unspecified
+  available-for-business-trips: OPTIONAL | DEFAULT:no
+  applicant-timezone: OPTIONAL | DEFAULT:unspecified
+  applicant-location: OPTIONAL | DEFAULT:unspecified
 
 contact:
   github: FILLED_NEXT_STEP
@@ -32,46 +32,32 @@ contact:
   download: FILLED_NEXT_STEP
   online: FILLED_NEXT_STEP
   calendar: FILLED_NEXT_STEP
-  print: Print this page 
+  print: FILLED_NEXT_STEP 
 
 hardskills:
   skill:
-    - 
-    - 
+    - OPTIONAL | LIST_NEWLINE
 
 softskills:
   skill:
-    - 
-    - 
+    - OPTIONAL | LIST_NEWLINE
 
 languages:
-  - idiom: LANGUAGE - LEVEL
-  - idiom: LANGUAGE - LEVEL
+  - idiom: OPTIONAL | LIST_NEWLINE
 
 education:
-  - degree: 
+  - degree: OPTIONAL | LIST_BLOCK | GROUP
     time: 
     university: 
 
-  - degree:
-    time: 
-    university:
-
 bio: |
-  SOME_PERSONAL_PREFERENCES_AND_INFORMATION
+  DO_NOT_PROMPT
 
 experience:
-  - role: 
+  - role: OPTIONAL | LIST_BLOCK | GROUP
     time: 
     company: 
-    link:
     details: 
-    details-list: ""
-
-  - role: 
-    time: 
-    company: 
-    details: ""
     details-list:
       - 
       -
