@@ -11,20 +11,20 @@ preferences:
   interested-to-work-in-office : AT_LEAST_ONE
   interested-to-work-in-hybrid-office-and-remote : AI_DERIVED
   
-  interested-to-work-as-private-contractor: OPTIONAL | DEFAULT:unspecified
-  interested-to-work-as-individual-enterpreneur: OPTIONAL | DEFAULT:unspecified
+  interested-to-work-as-private-contractor: DEFAULT:unspecified
+  interested-to-work-as-individual-enterpreneur: DEFAULT:unspecified
   
-  interested-to-work-fulltime : OPTIONAL | DEFAULT_YES
-  interested-to-work-parttime : OPTIONAL | DEFAULT_YES
-  agree-to-solve-test-task : OPTIONAL | DEFAULT:no
-  willing-to-relocate : OPTIONAL | DEFAULT:no
-  can-relocate : OPTIONAL | DEFAULT:no
-  agree-to-work-from-russia-territory: OPTIONAL | DEFAULT:no
-  agree-to-work-outside-of-russia-territory: OPTIONAL | DEFAULT:yes
-  desired-salary: OPTIONAL | DEFAULT:unspecified
-  available-for-business-trips: OPTIONAL | DEFAULT:no
-  applicant-timezone: OPTIONAL | DEFAULT:unspecified
-  applicant-location: OPTIONAL | DEFAULT:unspecified
+  interested-to-work-fulltime : DEFAULT:yes
+  interested-to-work-parttime : DEFAULT:yes
+  agree-to-solve-test-task : DEFAULT:no
+  willing-to-relocate : DEFAULT:no
+  can-relocate : DEFAULT:no
+  agree-to-work-from-russia-territory: DEFAULT:no
+  agree-to-work-outside-of-russia-territory: DEFAULT:yes
+  desired-salary: DEFAULT:unspecified
+  available-for-business-trips: DEFAULT:no
+  applicant-timezone: DEFAULT:unspecified
+  applicant-location: DEFAULT:unspecified
 
 contact:
   github: FILLED_NEXT_STEP
@@ -39,17 +39,17 @@ contact:
 
 hardskills:
   skill:
-    - OPTIONAL | LIST_NEWLINE
+    - LIST_NEWLINE
 
 softskills:
   skill:
-    - OPTIONAL | LIST_NEWLINE
+    - LIST_NEWLINE
 
 languages:
-  - idiom: OPTIONAL | LIST_NEWLINE
+  - idiom: LIST_NEWLINE
 
 education:
-  - degree: OPTIONAL | LIST_BLOCK | GROUP
+  - degree: LIST_BLOCK | GROUP
     time: 
     university: 
 
@@ -57,7 +57,7 @@ bio: |
   AI_DERIVED
 
 experience:
-  - role: OPTIONAL | LIST_BLOCK | GROUP
+  - role: LIST_BLOCK | GROUP
     time: 
     company: 
     details: 
