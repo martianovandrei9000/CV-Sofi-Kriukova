@@ -2,7 +2,7 @@ name: AT_LEAST_ONE
 name-in-cyrillic : AT_LEAST_ONE
 
 stopwords:
-  personal-stopwords: LIST | OPTIONAL
+  personal-stopwords: LIST | DEFAULT:unspecified
   universal-stopwords: ["наставник", "ментор", "репетитор",  "школа", "школу", "преподаватель", "автор", "стажёр", "стажер", "intern", "интерн",  "продажи", "продажам", "продвижению",  "торговых"]
 
 preferences:
@@ -43,13 +43,13 @@ hardskills:
 
 softskills:
   skill:
-    - LIST_NEWLINE
+    - LIST_NEWLINE | AI_DERIVED
 
 languages:
-  - idiom: LIST_NEWLINE
+  - idiom: LIST_NEWLINE | AI_DERIVED
 
 education:
-  - degree: LIST_BLOCK | GROUP
+  - degree: LIST_BLOCK | GROUP | DEFAULT:unspecified
     time: 
     university: 
 
@@ -57,7 +57,7 @@ bio: |
   AI_DERIVED
 
 experience:
-  - role: LIST_BLOCK | GROUP
+  - role: LIST_BLOCK | GROUP | DEFAULT:unspecified
     time: 
     company: 
     details: 
