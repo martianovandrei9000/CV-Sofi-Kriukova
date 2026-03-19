@@ -1,15 +1,12 @@
 title: CV
-description: My CV.
+description: "Developer's CV"
 url: ""
-baseurl: ""
+baseurl: "/TemplateCV"
 theme_skin: blue
 
 sass:
   sass_dir: _sass
   style: compressed
-
-plugins:
-  - jekyll-minifier
 
 exclude:
   - docker-compose.yml
