@@ -1,3 +1,4 @@
+{% comment %}
 {% assign contact = site.data.data.contact %}
 {% if contact %}
 <section class="contact">
@@ -50,7 +51,7 @@
     </div>
     {% endif %}
 
-    
+
     {% if contact.calendar %}
     <div class="contact-item">
         <i data-feather="calendar"></i>
@@ -60,11 +61,10 @@
     </div>
     {% endif %}
 
-    
+
     </div>
     <div class="right-column">
 
-    {% comment %}
     {% if contact.download %}
     <div class="contact-item">
         <i data-feather="download"></i>
@@ -73,7 +73,6 @@
         </a>
     </div>
     {% endif %}
-    {% endcomment %}
 
     {% if contact.github %}
     <div class="contact-item">
@@ -83,7 +82,7 @@
         </a>
     </div>
     {% endif %}
-    
+
     {% if contact.gitlab %}
     <div class="contact-item">
         <i data-feather="gitlab"></i>
@@ -93,16 +92,15 @@
     </div>
     {% endif %}
 
-    {% comment %}
     {% if contact.print %}
     <div class="contact-item">
         <i data-feather="printer"></i>
         <button class="contact-button" onclick="window.print()"> {{contact.print}}</button>
     </div>
     {% endif %}
-    {% endcomment %}
 
     </div>
     </div>
 </section>
 {% endif %}
+{% endcomment %}
