@@ -64,6 +64,7 @@
     </div>
     <div class="right-column">
 
+    {% comment %}
     {% if contact.download %}
     <div class="contact-item">
         <i data-feather="download"></i>
@@ -72,6 +73,7 @@
         </a>
     </div>
     {% endif %}
+    {% endcomment %}
 
     {% if contact.github %}
     <div class="contact-item">
@@ -91,12 +93,14 @@
     </div>
     {% endif %}
 
+    {% comment %}
     {% if contact.print %}
     <div class="contact-item">
         <i data-feather="printer"></i>
         <button class="contact-button" onclick="window.print()"> {{contact.print}}</button>
     </div>
     {% endif %}
+    {% endcomment %}
 
     </div>
     </div>
