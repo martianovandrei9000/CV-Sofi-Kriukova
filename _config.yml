@@ -1,6 +1,6 @@
 title: CV-Sofi-Kriukova
 description: "Developer's CV"
-baseurl: "/TemplateCV"
+baseurl: /CV-Sofi-Kriukova
 theme_skin: blue
 
 sass:
